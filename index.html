@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        
+        <head>
+            <body onload="updateDate()">
+                <p style="text-align: right;"><span id="date"></span></p>
+       <title>
+        Topsy Ad
+       </title>
+      <center><h1><a href="https://topsy-1.web.app/">Topsy Fashion Hub</a></h1></center>
+      <H2 align = "center"><I>Welcome</I></H2>
+
+      <HR color="black" size = "5"><Marquee behavior="alternate" style="font-size: 30px;">Quality Never Goes Out of Style.</Marquee>
+
+       <a href="https://topsy-1.web.app/"> <img  src="IMAGES/LOGO.png" border="7" width="1200" height="400" title="Topsy" alt="Topsy Fashion Hub"></a>
+      
+        </head>
+        <link rel="stylesheet" href="Styles.css">
+
+        <p >
+        Topsy Fashion Hub is an online fashion store that offers a wide range of trendy and stylish clothing for both men and women.
+        From casual basics to luxurious statement pieces, this store has something for everyone.
+        They have a vast collection of graphic tees, sweatpants, joggers, and sneakers for men and women.
+        Their selection of dresses, blouses, and dress shirts is also impressive.
+        The store is known for its designer labels and classic style, so you'll be sure to find something special.
+        The website is user-friendly and easy to navigate.
+        You can filter your search by size, color, style, and price range.
+        They offer free shipping on orders over $50 and free returns in-store.
+        The customer service team is always available to answer any questions you may have.
+        </p>
+        <h2 style="text-align: center;"> Watch the video attached below</h2>
+          <div class="links">
+            <a href="IMAGES/hosi.mp4">
+                Click Here For the Video!
+                </a>
+                <br></br>
+                <a href="https://topsy-1.web.app/">
+                    Visit Topsy Fashion Hub Page
+                 </a>
+                    <br></br>
+                <a href="https://topsy-1.web.app/Product.html">
+                   Checkout Products Available
+                    </a>
+                    <br></br>
+                <a href="https://topsy-1.web.app/contact.html">
+                    CONTACT US
+                    </a>
+
+        </div>
+       
+            <P align = "center">Copyright 2023 -KenethKyalo
+            </body>
+                <script>
+                    function updateDate() {
+                      var dateElement = document.getElementById("date");
+                      var today = new Date();
+                      var tomorrow = new Date(today);
+                      tomorrow.setDate(tomorrow.getDate() + 1);
+                      var dateString = tomorrow.toLocaleDateString("en-US", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+                      dateElement.innerHTML = dateString;
+                    }
+                  </script>
+    
+</html>

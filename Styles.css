@@ -1,0 +1,45 @@
+body{
+    
+  font-family: 'Mooli', sans-serif;
+  background: radial-gradient(#ebe04c,#cbeaf3);
+  animation: wave 50s infinite linear;
+}
+
+
+@keyframes wave {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(-10%);
+  }
+}
+
+
+h1{
+  padding-top: 10px;
+  position: relative;
+  font: bolder;
+  color: rgb(39, 118, 221);
+  justify-content:center;
+  
+}
+header{
+  top: o;
+  left: 0;
+}
+p{
+    
+
+font-size: 30px;
+color: rgb(4, 1, 10);
+}
+video{
+    width: 30rem;
+    height: 30rem;
+}
+.links{
+  font-size: 30px;
+  text-align: center;
+
+}
